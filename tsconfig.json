@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "lib": ["dom", "es2015"],
+    "importHelpers": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "lib",
+    "removeComments": false,
+    "inlineSources": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "jsxFactory": "createElement",
+    "target": "es2017",
+    "baseUrl": ".",
+    "paths": {
+      "rax": [
+        "node_modules/rax-types"
+      ]
+    },
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "**/__tests__/**"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
